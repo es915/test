@@ -17,7 +17,6 @@
                     onblur="this.placeholder='게임에서 사용할 닉네임을 적어주세요'"/>
                     <div class="btn_group">
                         <input type="submit" value="커스텀 방 만들기" class="make_btn custom_btn"/>
-                        <button class="custom_btn" onclick="displayOn()">asdasds</button>
                         <input type="submit" value="커스텀 방 참여하기" class="participate_btn custom_btn" onclick="displayOn();"/>
                     </div>
                     
@@ -37,11 +36,11 @@
 
         <script>
             function displayOn() {
-                document.getElementsById("hide_form").style.display='block';
+                document.getElementById("hide_form").style.display='block';
             }
 
             function displayOff() {
-                document.getElementsById("hide_form").style.display='none';
+                document.getElementById("hide_form").style.display='none';
             }
         </script>
     </body>
